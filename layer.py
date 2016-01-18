@@ -38,7 +38,7 @@ class EchoLayer(YowInterfaceLayer):
                 answer=answer+str(count)+") "+first+"\n \n"+second+"\n \n"
             
         else:
-            answer="notcha"
+            answer="Please send \"score\" message to receive score"
         if True:
             receipt = OutgoingReceiptProtocolEntity(messageProtocolEntity.getId(), messageProtocolEntity.getFrom(), 'read', messageProtocolEntity.getParticipant())
 
